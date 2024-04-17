@@ -10,6 +10,7 @@ int main(){
     for(int i=0;i<5;i++){
         values[i] = 1;
     }
+    
 
     for(int i=0;i<5;i++){
         cout<<values[i]<<endl;
