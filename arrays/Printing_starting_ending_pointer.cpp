@@ -19,12 +19,11 @@ int main() {
 
     // Printing output
     cout << "Array elements:" << endl;
-    for (int i = 0; i <= (sizeof(arr)/sizeof(arr[0]))/2; i++) {
+    for (int i = 0; i < (sizeof(arr)/sizeof(arr[0]))/2; i++) {
         cout<<"first value = " << arr[i] << endl;
-        cout<<"last value = " arr[length-1]<<endl;
+        cout<<"last value = " <<arr[length-1]<<endl;
         length--;
 
     }
-
 
 }
