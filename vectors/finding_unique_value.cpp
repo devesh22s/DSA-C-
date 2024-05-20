@@ -8,10 +8,12 @@ using namespace std;
             uniqueValue = uniqueValue ^ values[i];
         }
         
-        return uniqueValue;
+        return uniqueValue; 
     }
 int main(){
     vector<int> values = {1,1,5,4,4};
     int uniqueValue = findUniqueElement(values);
     cout<<"unique value : "<<uniqueValue<<endl;
 }
+
+
