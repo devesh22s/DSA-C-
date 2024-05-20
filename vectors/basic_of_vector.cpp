@@ -43,9 +43,9 @@
 
 
 
-//     int length;
-//     cout << "Enter the length of the vector: ";
-//     cin >> length;
+    // int length;
+    // cout << "Enter the length of the vector: ";
+    // cin >> length;
     
 //     vector<int> input;
     
